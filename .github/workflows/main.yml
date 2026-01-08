@@ -2,8 +2,8 @@ name: Weekly Half Bat Scanner
 
 on:
   schedule:
-    # Every Friday at 16:00 UTC (~9:30 PM IST)
-    - cron: "0 16 * * 5"
+    # Every weekday at 9:45 AM IST (04:15 UTC)
+    - cron: "15 4 * * 1-5"
   workflow_dispatch:
 
 jobs:
